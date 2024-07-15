@@ -2,6 +2,7 @@ import ProjectCard from "./ProjectCard";
 import confessionapp from "../assets/project-pics/confession-app.png"
 import chatapp from "../assets/project-pics/chat-app.png";
 import easydocs from "../assets/project-pics/easy-docs.png";
+import project from "../assets/project.png";
 
 const Projects = () =>
     {
@@ -31,8 +32,13 @@ const Projects = () =>
          ]
 
         return(
-            
-            <div className="h-[400px] flex my-2 mx-1 p-1 flex-wrap overflow-auto">
+            <>
+            <h2 className="text-2xl md:text-3xl text-white font-extrabold flex items-center ml-10">
+                        <span>Projects</span>
+                        <img className="h-[50px] ml-2" src={project}></img>
+            </h2>
+            <div className="flex my-2 mx-1 p-1 flex-wrap">
+                
                 {projects && projects.length > 0 ? (
                                         projects.map((project) => (
                                         <ProjectCard key={project?.id} data={project}/>
@@ -43,6 +49,7 @@ const Projects = () =>
                                         </div>
                                     )}
             </div>
+            </>
            
         )
 

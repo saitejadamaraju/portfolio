@@ -9,17 +9,9 @@ function App() {
 
   return (
     <>
-      {/* header */}
-      
       <Header/>
-      
-      
-      <div className="flex flex-col md:flex-row m-1 my-2 h-[450px]">
-          <Sidebar/>
-          <Body/> 
-      </div>
-       
-      {/* <Footer/> */}
+      <Body/>
+      <Footer/> 
     </>
   )
 }

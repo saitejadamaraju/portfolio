@@ -1,21 +1,26 @@
 import infosys from "../assets/infosys.svg"
+import experience from "../assets/experience.png"
+
 const Work = () =>
     {
         return (
             <div className="text-white m-2">
-                <div className="flex">
-                    <h2 className="text-3xl font-extrabold m-1">Experience</h2>
-                </div>
-                <div className="h-[350px] px-8 md:px-14 py-2 bg-gray-700 rounded-md overflow-auto my-2">
+               
+                    <h2 className="text-2xl md:text-3xl flex items-center font-extrabold m-1">
+                        <span>Experience</span>
+                        <img className="h-[50px] ml-2" src={experience}></img>
+                    </h2>
+                
+                <div className="px-8 md:px-14 py-2 bg-gray-700 rounded-md my-2">
                     <div className="bg-gray-800 p-2 rounded-md">
                         <a className="cursor-pointer" target="_blank" href="https://www.infosys.com/"><img className="h-[20px]" src={infosys}></img></a>
-                        <span className="text-lg font-bold">senior systems engineer</span>
+                        <span className="text-sm md:text-lg font-bold">senior systems engineer</span>
                         <div className="text-xs font-semibold flex space-x-2">
                             <span>August 2021 - Present | Fulltime | Hybrid </span>
                         </div>
                     </div>
                     <div className="font-semibold">
-                        <ul className="py-4 space-y-4 md:space-y-0">
+                        <ul className="py-4 space-y-4 md:space-y-0 text-sm md:text-lg">
                             <li>- Worked as a “Full-stack Developer” to develop and enhance functionalities in the Infrastructure Management Project.</li>
                             <li>- Designed and developed robust web APIs using Java, ensuring seamless communication between various system components.</li>
                             <li>- Utilized PostgreSQL for database management, implementing efficient data storage and retrieval mechanisms to enhance system performance.</li>
