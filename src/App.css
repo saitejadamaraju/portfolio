@@ -1,0 +1,7 @@
+.thumbsUpIcon {
+  &:hover {
+    path {
+      stroke: #077789;
+    }
+  }
+}
