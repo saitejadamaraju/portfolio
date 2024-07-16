@@ -25,7 +25,8 @@ const Header = () =>
 
             {/* photo */}
             <div className='w-3/12 flex justify-center items-center'>
-                <img className="mr-2 h-[75px] md:h-[120px] rounded border-2 border-black" src={pic} alt="Profile Pic"></img>
+                {/* <img className="mr-2 h-[75px] md:h-[120px] rounded border-2 border-black" src={pic} alt="Profile Pic"></img> */}
+                
             </div>
       </div>    
     )
