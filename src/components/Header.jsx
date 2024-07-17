@@ -8,7 +8,7 @@ const Header = () =>
 
     return(
         <div className="h-[100px] md:h-[150px] mx-1 my-2 flex justify-between rounded-lg  bg-gray-700">
-            {/* info */}
+            
             <div className="w-9/12 flex flex-col justify-center text-white ml-10">
                 <p className="md:text-2xl text-lg font-bold">Saiteja Damaraju</p>
                 <div className="flex flex-col">
@@ -18,7 +18,7 @@ const Header = () =>
                         <a className=" font-semibold  m-1" target="_blank" href="https://github.com/saitejadamaraju"><img className="h-[25px] md:h-[30px]"src={github} alt="github"></img></a>
                     </div>
                     <div className="">
-                        <a className="underline" target="_blank" href="https://drive.google.com/file/d/1tnry0Pesp5AyI7Ubb9K39KittKl4aRU6/view?usp=drive_link">Resume</a>
+                        <a className="underline" target="_blank" href="https://drive.google.com/file/d/11QQkmky1Z2BuPPZk_eFOS5p2Oqlcv8nx/view?usp=drive_link">Resume</a>
                     </div>
                 </div>
             </div>
