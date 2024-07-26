@@ -13,12 +13,12 @@ const Header = () =>
                 <p className="md:text-2xl text-lg font-bold">Saiteja Damaraju</p>
                 <div className="flex flex-col">
                     <div className="flex my-1">
-                        <a className=" font-semibold  m-1" href="mailto:teja8065@gmail.com"><img className="h-[25px] md:h-[30px]" src={gmail} alt="linkedin"></img></a>
+                        <a className=" font-semibold  m-1" href="mailto:teja8065@gmail.com"><img className="h-[25px] md:h-[30px]" src={gmail} alt="mail"></img></a>
                         <a className=" font-semibold  m-1" target="_blank" href="https://www.linkedin.com/in/saiteja-damaraju-137b40200/"><img className="h-[25px] md:h-[30px]" src={linkedin} alt="linkedin"></img></a>
                         <a className=" font-semibold  m-1" target="_blank" href="https://github.com/saitejadamaraju"><img className="h-[25px] md:h-[30px]"src={github} alt="github"></img></a>
                     </div>
                     <div className="">
-                        <a className="underline" target="_blank" href="https://drive.google.com/file/d/11QQkmky1Z2BuPPZk_eFOS5p2Oqlcv8nx/view?usp=drive_link">Resume</a>
+                        <a className="underline" target="_blank" href="https://drive.google.com/file/d/1TXq4wtAw6_LMC4smZG1k7jvMKFWBfD0Z/view?usp=drive_link">Resume</a>
                     </div>
                 </div>
             </div>
